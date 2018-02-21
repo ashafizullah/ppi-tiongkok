@@ -1,0 +1,32 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "PPI Tiongkok",
+  "short_name": "PPI Tiongkok",
+  "version": "org.ppitiongkok",
+  "description": "Aplikasi Perhimpunan Pelajar Indonesia Tiongkok",
+  "author": "Departemen IT PPI Tiongkok",
+  "icons": [
+    {
+      "src": "package-assets/icon/icon_ldpi_36x36.png",
+      "type": "image/png",
+      "sizes": "36x36"
+    },
+    {
+      "src": "package-assets/icon/icon_mdpi_48x48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "package-assets/icon/icon_hdpi_72x72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "package-assets/icon/icon_xhdpi_96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    }
+  ],
+  "start_url": "index.html"
+}
