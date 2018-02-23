@@ -4,6 +4,8 @@
         <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
         <title>PPI Tiongkok</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" href="css/framework7.min.css">
         <link rel="stylesheet" href="css/framework7-icons.css">
         <link rel="stylesheet" type="text/css" href="css/index.css">
@@ -64,23 +66,26 @@
                       <i class="icon f7-icons">menu</i>
                     </a>
                   </div>
-                  <div class="title">Home <b>Aplikasi PPI Tiongkok</b></div>
+                  <div class="title">Home</div>
                 </div>
               </div>
 
               <!-- Scrollable page content -->
               <div class="page-content">
-
-                <img src="img/ppit.png"  style='height:200px ; width:400px; display: block; margin-left: auto; margin-right: auto;'>
-                <img src="img/dept-IT.jpg"  style='height:190px ; width:400px; display: block; margin-left: auto; margin-right: auto;'>
-
-                <p>Halaman ini akan mengambil API artikel</p>
-                <!-- Link to another page -->
+                <!-- <p>Halaman ini akan mengambil API artikel</p> -->
+                <div id="instawrap" class="container">
+                <div id="instafeed" class="row"></div>
+                </div>
+               <!-- Link to another p-age -->
                 <a href="/about/">About app</a>
               </div>
             </div>
           </div>
         </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/instafeed.min.js"></script>
+        <script type="text/javascript" src="js/instaapi.js"></script>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/framework7.min.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
